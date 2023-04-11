@@ -3,8 +3,11 @@ async function getImage() {
     "https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=nature"
   );
   const data = await res.json();
+  console.log(data);
   document.body.style.backgroundImage = `url(${data.urls.full})`;
-  document.getElementById("author").textContent = `By: ${data.user.name}`;
+  document.getElementById(
+    "author"
+  ).textContent = `By: ${data.user.name} at ${data.location.name}`;
 }
 getImage();
 
