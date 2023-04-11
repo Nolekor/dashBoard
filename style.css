@@ -23,8 +23,26 @@ main {
 }
 #top {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 10px;
+}
+#weather-name {
+  margin-left: auto;
 }
 .time {
   text-align: center;
+}
+#crypto {
+  font-size: 1.3rem;
+}
+#crypto-top {
+  display: flex;
+  align-items: center;
+}
+#crypto-top > img {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+div#crypto > p {
+  margin: 0;
 }
