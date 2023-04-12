@@ -10,7 +10,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color: white;
-  text-shadow: 0px 0px 20px #aaaaaa;
+  text-shadow: 3px 3px 20px #000000;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -26,11 +26,16 @@ main {
   justify-content: flex-end;
   gap: 10px;
 }
-#weather-name {
+#weather {
   margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .time {
   text-align: center;
+  font-size: 4rem;
+  text-shadow: 0px 0px 20px #aaaaaa;
 }
 #crypto {
   font-size: 1.3rem;
@@ -45,4 +50,13 @@ main {
 }
 div#crypto > p {
   margin: 0;
+}
+#temp {
+  font-size: 2rem;
+}
+p.city {
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  margin-top: -2;
 }
