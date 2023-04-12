@@ -9,7 +9,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color: white;
+  color: whitesmoke;
   text-shadow: 3px 3px 20px #000000;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -35,7 +35,6 @@ main {
 .time {
   text-align: center;
   font-size: 4rem;
-  text-shadow: 0px 0px 20px #aaaaaa;
 }
 #crypto {
   font-size: 1.3rem;
